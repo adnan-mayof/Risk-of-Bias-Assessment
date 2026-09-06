@@ -1,30 +1,22 @@
 # Step 10 — Risk-of-Bias Assessment
 
-[← Previous Step: Full-Text Screening](../step-9-full-text-screening/)
+Maya has finished full-text screening.
 
----
+She now knows which studies meet the eligibility criteria for her systematic review.
 
-## 🧭 Maya Looks More Closely at the Included Studies
-
-Maya has completed full-text screening.
-
-She now has a set of studies that meet her eligibility criteria.
+But her mentor tells her that there is one more important step before she begins detailed data extraction.
 
 > **Maya:** “Now that I know which studies are eligible, can I start extracting the data?”
 
 > **Mentor:** “Before detailed data extraction, there is another important question.”
 
-> **Maya:** “How trustworthy are the results of these studies?”
+> **Maya:** “What is that?”
 
-> **Mentor:** “Exactly. We need to assess the **risk of bias** in each included study.”
+> **Mentor:** “How trustworthy are the results of these studies?”
 
-> **Maya:** “So we are not asking whether the study is interesting or whether we agree with its findings?”
+> **Maya:** “You mean I need to assess the risk of bias?”
 
-> **Mentor:** “Correct. We are asking whether aspects of the study's design, conduct, measurement, or analysis could have introduced systematic error into its results.”
-
-Maya opens her list of included studies.
-
-The next stage begins.
+> **Mentor:** “Exactly.”
 
 ---
 
@@ -32,376 +24,496 @@ The next stage begins.
 
 **Risk of bias** refers to the possibility that aspects of a study's design, conduct, analysis, or reporting could systematically distort its findings.
 
-For example, a study may have concerns related to:
+Risk of bias is different from simply asking whether a study is a “good” or “bad” study.
 
-* How participants were allocated
-* Whether important groups differed at baseline
-* How outcomes were measured
+The assessment focuses on methodological problems that could influence the estimated effect.
+
+For example, potential concerns may involve:
+
+* Randomization
+* Deviations from intended interventions
 * Missing outcome data
-* Selective reporting
-* Deviations from the planned intervention
-* Other methodological features relevant to the study design
+* Measurement of outcomes
+* Selection of reported results
+* Confounding
+* Selection of participants
 
-> **Mentor:** “Risk of bias is not the same thing as whether a study is good or bad. It is a structured assessment of factors that may have influenced the study's results.”
+The specific domains depend on the risk-of-bias tool being used.
 
 ---
 
-# 2. Why Does Maya Assess Risk of Bias?
+# 2. Eligibility and Risk of Bias Are Different
 
 Maya asks:
 
-> **Maya:** “Why do we need to assess risk of bias if we already decided that these studies are eligible?”
+> **Maya:** “If a study has a high risk of bias, does that mean it should not have been eligible?”
 
-> **Mentor:** “Eligibility and risk of bias answer different questions.”
+> **Mentor:** “Not necessarily. Eligibility and risk of bias answer different questions.”
 
 ### Eligibility asks:
 
-> **Does this study meet the criteria for the review?**
+> **Does this study meet the criteria for inclusion in the review?**
 
 ### Risk of bias asks:
 
-> **Could methodological problems have influenced the study's results?**
+> **Could methodological problems in this study systematically influence its results?**
 
-A study can therefore be:
+Therefore:
 
-```text id="e7n2sq"
-Eligible
-   ↓
-Risk of Bias Assessment
-   ↓
-Low / Some Concerns / High
-(or another tool-specific judgment)
+```text
+Eligibility
+     ↓
+Does the study meet the review criteria?
+     ↓
+YES
+     ↓
+Risk-of-Bias Assessment
+     ↓
+How much concern exists about bias?
 ```
 
-A study does not automatically become ineligible simply because it has a high risk of bias.
+A study can therefore be **eligible for the review** while also having a **high risk of bias**.
 
 ---
 
-# 3. Risk of Bias Is Not the Same as Study Quality
+# 3. Choose an Appropriate Risk-of-Bias Tool
 
-Maya notices that people sometimes use the terms **quality assessment** and **risk-of-bias assessment** interchangeably.
+Maya needs to select an assessment tool that matches the study designs in her review.
 
-> **Maya:** “Are they the same thing?”
+For example:
 
-> **Mentor:** “Not necessarily.”
+| Study Design                        | Possible Tool                    |
+| ----------------------------------- | -------------------------------- |
+| Randomized trials                   | RoB 2                            |
+| Non-randomized intervention studies | ROBINS-I                         |
+| Other study designs                 | Appropriate design-specific tool |
 
-A risk-of-bias assessment focuses on whether specific methodological features could introduce bias into the results.
+The tool should be selected **before the assessment is conducted** and should be appropriate for the designs included in the review.
 
-A general quality checklist may assess broader characteristics of a study.
-
-For a systematic review, Maya should use the approach specified in her protocol.
-
-### Important distinction
-
-> **Risk of bias focuses on the potential for systematic distortion of study results.**
+Maya should not create her own scoring system simply because it seems easier.
 
 ---
 
-# 4. Choose the Risk-of-Bias Tool Before Assessing the Studies
+# 4. Follow the Domains of the Tool
+
+Each risk-of-bias tool has specific domains and signaling questions.
+
+Maya follows the guidance for the selected tool.
+
+She records:
+
+* Domain-level judgments
+* Supporting information from the study
+* Concerns identified
+* Overall judgment where the tool provides one
+* Any information needed to justify the judgment
+
+The goal is not simply to assign a label.
+
+Maya needs to be able to explain **why** a judgment was made.
+
+---
+
+# 5. Do Not Guess When Information Is Missing
+
+Maya encounters a study that does not provide enough information to answer one of the assessment questions.
+
+> **Maya:** “I can't tell whether this study handled this properly.”
+
+> **Mentor:** “Then don't guess. Follow the guidance of your risk-of-bias tool for insufficient information.”
+
+Maya records the available evidence and applies the tool's recommended procedure.
+
+This makes the assessment more transparent and reproducible.
+
+---
+
+# 6. High Risk of Bias Does Not Automatically Mean Exclusion
 
 Maya asks:
 
-> **Maya:** “Can I use any risk-of-bias checklist?”
-
-> **Mentor:** “No. The tool should match the study design and your review question.”
-
-Different study designs may require different approaches.
-
-For example:
-
-| Study Design                        | Possible Risk-of-Bias Approach      |
-| ----------------------------------- | ----------------------------------- |
-| Randomized trials                   | RoB 2                               |
-| Non-randomized intervention studies | ROBINS-I                            |
-| Other study designs                 | An appropriate design-specific tool |
-
-The exact tool should be selected **before Maya begins the assessment** and specified in her protocol.
-
-> **Mentor:** “Don't choose a tool because it produces the most favorable results. Choose a tool because it is appropriate for the evidence you are reviewing.”
-
----
-
-# 5. Maya's Studies Are Experimental and Quasi-Experimental
-
-Maya's review includes experimental and quasi-experimental studies.
-
-Her mentor explains that these designs may require different risk-of-bias approaches.
-
-For example:
-
-```text id="k5j2h6"
-Experimental / Randomized Study
-            ↓
-       Appropriate
-       randomized-trial
-       risk-of-bias tool
-```
-
-```text id="o4k2yq"
-Quasi-Experimental /
-Non-Randomized Study
-            ↓
-       Appropriate
-       non-randomized
-       risk-of-bias tool
-```
-
-> **Mentor:** “Don't force every study into the same assessment framework if the underlying study designs differ.”
-
----
-
-# 6. Assess the Study Using the Tool's Domains
-
-Maya selects the appropriate tool.
-
-She now evaluates each study according to the domains specified by that tool.
-
-For example, a tool may ask Maya to consider issues related to:
-
-* Randomization or allocation
-* Deviations from intended interventions
-* Missing outcome data
-* Outcome measurement
-* Selection of the reported result
-
-The exact domains depend on the tool.
-
-> **Mentor:** “Follow the tool's guidance rather than creating your own informal scoring system.”
-
----
-
-# 7. Do Not Create Your Own Overall Score Unless the Method Requires It
-
-Maya asks:
-
-> **Maya:** “Can I give each study a score from 0 to 10?”
-
-> **Mentor:** “Not unless your selected method specifically calls for that approach.”
-
-Many modern risk-of-bias tools are based on **domain-level judgments**, not simply adding points together.
-
-For example:
-
-```text id="0c2d9x"
-Study A
- ├── Domain 1 → Low risk
- ├── Domain 2 → Some concerns
- ├── Domain 3 → Low risk
- └── Domain 4 → Low risk
-```
-
-The final judgment should follow the rules of the selected risk-of-bias tool.
-
-> **Mentor:** “Don't turn a structured risk-of-bias assessment into an arbitrary numerical score.”
-
----
-
-# 8. Record Evidence for Each Judgment
-
-Maya realizes that simply writing **“high risk”** is not enough.
-
-> **Maya:** “How will I remember why I made that judgment?”
-
-> **Mentor:** “Record the evidence supporting your judgment.”
-
-For example:
-
-| Study   | Domain               | Judgment      | Supporting Information                                     |
-| ------- | -------------------- | ------------- | ---------------------------------------------------------- |
-| Study A | Outcome measurement  | Low risk      | Outcome measured using the predefined assessment           |
-| Study B | Missing outcome data | Some concerns | Attrition reported but reasons were incompletely described |
-| Study C | Allocation           | High risk     | Allocation procedure was not adequately described          |
-
-> **Mentor:** “Someone reviewing your assessment should be able to understand how you reached the judgment.”
-
----
-
-# 9. What If the Study Does Not Provide Enough Information?
-
-Maya encounters a study that does not clearly describe how participants were allocated.
-
-> **Maya:** “I can't tell whether the allocation process was appropriate.”
-
-> **Mentor:** “Then don't guess.”
-
-Maya records the available information and applies the judgment category required by her risk-of-bias tool.
-
-Depending on the tool, insufficient information may contribute to a judgment such as **some concerns** or another appropriate category.
-
-The exact judgment should follow the tool's guidance.
-
-### Important rule
-
-> **Do not assume that an unreported method was performed correctly.**
-
-But also:
-
-> **Do not assume that an unreported method was necessarily performed incorrectly.**
-
-Maya follows the assessment tool's instructions.
-
----
-
-# 10. What If a Study Has a High Risk of Bias?
-
-Maya finds a study with substantial methodological concerns.
-
-> **Maya:** “Should I remove it from the review?”
+> **Maya:** “So if a study has a high risk of bias, should I exclude it?”
 
 > **Mentor:** “Not automatically.”
 
-A high-risk-of-bias study may still be eligible for the review and may still contribute to the evidence synthesis.
+A high risk-of-bias judgment does **not by itself** mean that the study must be removed from the review or synthesis.
 
-What happens next depends on the **review protocol and analysis plan**.
+The protocol should specify how risk-of-bias judgments will be handled.
 
-Possible approaches may include:
+Possible approaches include:
 
-* Retaining the study in the synthesis
-* Considering its risk of bias when interpreting the findings
-* Conducting a sensitivity analysis
+* Retaining studies in the synthesis
+* Considering risk of bias when interpreting findings
+* Conducting sensitivity analyses
 * Presenting results separately
-* Excluding it from a particular analysis if this was prespecified
+* Excluding studies from a particular synthesis if a predefined protocol rule requires it
 
-> **Mentor:** “The important thing is that you don't decide after seeing the results simply because you dislike the study's risk-of-bias judgment.”
-
----
-
-# 11. Keep Risk-of-Bias Decisions Separate From Eligibility
-
-Maya summarizes the distinction:
-
-| Question                                                       | Stage                            |
-| -------------------------------------------------------------- | -------------------------------- |
-| Does the study meet the review's eligibility criteria?         | Full-Text Screening              |
-| What methodological concerns could affect the study's results? | Risk-of-Bias Assessment          |
-| How should those concerns affect the synthesis?                | Analysis and Interpretation Plan |
-
-This keeps the workflow transparent.
-
-```text id="m7z7rc"
-Full-Text Screening
-        ↓
-Eligible Study
-        ↓
-Risk-of-Bias Assessment
-        ↓
-Risk-of-Bias Judgments
-        ↓
-Plan How the Judgments Will Be Used
-        ↓
-Data Extraction
-```
+The important point is that Maya should **not create an exclusion rule after seeing the results**.
 
 ---
 
-# 12. Should Maya Assess Risk of Bias Alone?
+# 7. Assess Each Eligible Study
 
-Maya asks:
+Maya now assesses the eligible studies using the selected risk-of-bias tool.
 
-> **Maya:** “Can I assess the risk of bias by myself?”
+For each study, she records:
 
-> **Mentor:** “You can, depending on your review workflow, but independent assessment by more than one reviewer can reduce the influence of individual judgment.”
+| Study ID  | Design             | Tool     | Judgment      | Supporting Evidence          |
+| --------- | ------------------ | -------- | ------------- | ---------------------------- |
+| Study 001 | Randomized         | RoB 2    | Low           | Evidence supporting judgment |
+| Study 002 | Randomized         | RoB 2    | Some concerns | Evidence supporting judgment |
+| Study 003 | Quasi-experimental | ROBINS-I | High          | Evidence supporting judgment |
 
-If multiple reviewers are involved, they may:
+The exact fields depend on the tool and review protocol.
 
-1. Assess studies independently.
-2. Compare their judgments.
-3. Discuss disagreements.
-4. Reach consensus.
-5. Use a third reviewer when required by the protocol.
+---
+
+# 8. If There Are Multiple Reviewers
+
+If more than one reviewer is conducting the assessment, the protocol should specify how the process will work.
 
 For example:
 
-```text id="v1y5y5"
-Reviewer 1 ──┐
-             ├── Compare Judgments
-Reviewer 2 ──┘
-                  ↓
-             Agreement?
-             ↙       ↘
-           Yes        No
-            ↓          ↓
-         Record     Resolve
-                    Disagreement
+```text
+Reviewer 1
+     ↓
+Independent assessment
+     ↓
+Reviewer 2
+     ↓
+Independent assessment
+     ↓
+Compare judgments
+     ↓
+Resolve disagreements
+     ↓
+Final judgment
 ```
 
-If Maya is working alone, she should document her assessment process and follow the procedure specified in her protocol.
+Disagreements may be resolved through:
+
+* Discussion
+* Consensus
+* A third reviewer
+
+The method should follow the protocol.
+
+If Maya is working alone, she should document her actual process rather than claiming that multiple reviewers conducted independent assessments.
 
 ---
 
-# 13. Record the Risk-of-Bias Assessment
+# 9. Record the Risk-of-Bias Results
 
 Maya creates a risk-of-bias table.
 
 For example:
 
-| Study   | Domain 1 | Domain 2      | Domain 3      | Domain 4 | Overall Judgment |
-| ------- | -------- | ------------- | ------------- | -------- | ---------------- |
-| Study A | Low      | Low           | Low           | Low      | Low              |
-| Study B | Low      | Some concerns | Low           | Low      | Some concerns    |
-| Study C | High     | Low           | Some concerns | Low      | High             |
+| Study ID  | Overall Judgment | Notes                         |
+| --------- | ---------------- | ----------------------------- |
+| Study 001 | Low risk         | No major concerns identified  |
+| Study 002 | Some concerns    | Concern in one domain         |
+| Study 003 | High risk        | Major methodological concerns |
 
-The actual domains and judgment categories depend on the selected tool.
-
-Maya also keeps notes explaining the judgments.
+The table provides a transparent record of the assessment.
 
 ---
 
-# 14. Maya's Risk-of-Bias Workflow
+# 10. How Risk of Bias Can Be Used in the Analysis
 
-Maya summarizes the process:
+Risk-of-bias information can be incorporated into the synthesis in different ways.
 
-```text id="3s1m7n"
+For example, Maya may:
+
+### Include all eligible studies
+
+She reports the risk-of-bias judgments and considers them when interpreting the findings.
+
+### Conduct sensitivity analysis
+
+She compares:
+
+```text
+All eligible studies
+        ↓
+Primary analysis
+
+Higher-risk studies removed
+        ↓
+Sensitivity analysis
+```
+
+She can then examine whether the conclusions change.
+
+### Apply a predefined exclusion rule
+
+If the protocol specifies a risk-of-bias threshold for a particular synthesis, studies meeting that threshold may be excluded from that synthesis.
+
+The key is that the rule should be **prespecified**.
+
+---
+
+# 11. Risk of Bias and the Protocol
+
+Maya checks her protocol.
+
+Her protocol specifies:
+
+* The risk-of-bias tool
+* The assessment domains
+* The assessment procedure
+* How disagreements will be handled
+* How risk-of-bias judgments will be incorporated into the synthesis
+* Whether a predefined threshold affects eligibility for a particular synthesis
+
+> **Mentor:** “This is why we developed the protocol before conducting the review. You already know how you planned to handle these decisions.”
+
+---
+
+# 12. Maya's Risk-of-Bias Workflow
+
+Maya summarizes her process:
+
+```text
 Eligible Studies
-      ↓
-Review Protocol
-      ↓
+       ↓
 Select Appropriate Risk-of-Bias Tool
-      ↓
+       ↓
 Assess Each Study
-      ↓
-Assess Each Relevant Domain
-      ↓
-Record Judgment
-      ↓
-Record Supporting Evidence
-      ↓
-Resolve Reviewer Disagreements
-      ↓
-Record Final Judgments
-      ↓
-Determine How Risk of Bias Will Be Used
-      ↓
-Proceed to Data Extraction
+       ↓
+Record Domain-Level Judgments
+       ↓
+Document Supporting Evidence
+       ↓
+Determine Overall Judgment
+       ↓
+Apply Protocol-Specified Handling
+       ↓
+Document Results
+```
+
+Maya now understands that risk-of-bias assessment is not simply another screening decision.
+
+It provides information about the **credibility and potential limitations of the evidence**.
+
+---
+
+# 13. What Should Maya Save?
+
+Maya creates a structured risk-of-bias record.
+
+```text
+risk-of-bias/
+├── risk-of-bias-tool.md
+├── assessment-guide.md
+├── assessment-form.xlsx
+└── assessment-decisions.md
+```
+
+She also keeps documentation of reviewer decisions and disagreements when applicable.
+
+```text
+documentation/
+├── reviewer-decisions.md
+└── disagreement-log.md
+```
+
+This creates an audit trail for the assessment process.
+
+---
+
+# 14. Important Distinction: Risk of Bias vs. Study Exclusion
+
+Maya summarizes what she has learned.
+
+> **Maya:** “So risk of bias doesn't automatically determine whether a study belongs in my review.”
+
+> **Mentor:** “Correct.”
+
+A study can be:
+
+```text
+Eligible
+   ↓
+Risk of bias: Low
+   ↓
+Potentially included in synthesis
+```
+
+or:
+
+```text
+Eligible
+   ↓
+Risk of bias: High
+   ↓
+May still be included
+```
+
+or, if the protocol specifies a rule:
+
+```text
+Eligible
+   ↓
+Risk of bias: High
+   ↓
+Does not meet predefined
+threshold for a particular synthesis
+   ↓
+Excluded from that synthesis
+```
+
+The handling depends on the **protocol and planned analysis**.
+
+---
+
+# 15. What Happens to the Studies After Risk-of-Bias Assessment?
+
+Maya finishes assessing the risk of bias for all eligible studies.
+
+She now reviews the results.
+
+> **Maya:** “I found that some studies have low risk of bias, some have concerns, and some have high risk of bias.”
+
+> **Mentor:** “Good. Now what happens to those studies?”
+
+> **Maya:** “Do I exclude the studies with high risk of bias?”
+
+> **Mentor:** “Not automatically. You need to follow the procedure you specified in your protocol.”
+
+Maya checks her analysis plan.
+
+Her protocol specifies that studies meeting a predefined **risk-of-bias threshold** will not contribute to the primary synthesis.
+
+Therefore, some studies are excluded from the planned synthesis.
+
+For example:
+
+```text
+Eligible studies after full-text screening
+                ↓
+              126
+                ↓
+       Risk-of-Bias Assessment
+                ↓
+       ┌────────┼────────┐
+       ↓        ↓        ↓
+      Low     Some      High
+     Risk    Concerns   Risk
+       ↓        ↓        ↓
+      82       29        15
+                         ↓
+              Excluded from
+              primary synthesis
+```
+
+Maya records the results:
+
+| Risk-of-Bias Judgment | Number of Studies | Handling                        |
+| --------------------- | ----------------: | ------------------------------- |
+| Low risk              |                82 | Included in primary synthesis   |
+| Some concerns         |                29 | Included according to protocol  |
+| High risk             |                15 | Excluded from primary synthesis |
+| **Total**             |           **126** |                                 |
+
+> **Maya:** “So 126 studies were eligible after full-text screening, but only 111 will contribute to the primary synthesis?”
+
+> **Mentor:** “Correct, based on the rule in your protocol.”
+
+```text
+126 eligible studies
+        ↓
+Risk-of-bias assessment
+        ↓
+15 excluded according to
+predefined protocol criteria
+        ↓
+111 studies available
+for primary synthesis
+```
+
+Maya documents the studies that were excluded and the reason for their exclusion.
+
+For example:
+
+| Study ID  | Risk-of-Bias Judgment | Decision                        | Reason                                         |
+| --------- | --------------------- | ------------------------------- | ---------------------------------------------- |
+| Study 014 | High                  | Excluded from primary synthesis | Did not meet predefined risk-of-bias threshold |
+| Study 027 | High                  | Excluded from primary synthesis | Did not meet predefined risk-of-bias threshold |
+| Study 041 | High                  | Excluded from primary synthesis | Did not meet predefined risk-of-bias threshold |
+
+> **Mentor:** “Notice how you are documenting the decision. You are not simply saying that these studies were ‘bad studies.’ You are reporting the risk-of-bias judgment and explaining how your predefined protocol handled that judgment.”
+
+---
+
+# 16. What If the Protocol Does Not Exclude High-Risk Studies?
+
+Maya asks another question.
+
+> **Maya:** “What if my protocol doesn't say that high-risk studies should be excluded?”
+
+> **Mentor:** “Then you should not create an exclusion rule after seeing the results.”
+
+A study with high risk of bias may remain in the synthesis.
+
+The review may instead:
+
+* Retain the study
+* Present its risk-of-bias judgment
+* Consider the judgment when interpreting the evidence
+* Conduct a sensitivity analysis
+* Examine whether conclusions change when studies with higher risk of bias are removed
+
+The important principle is:
+
+> **Risk-of-bias assessment informs how evidence is interpreted and synthesized. It does not automatically determine that a study must be excluded.**
+
+---
+
+# 17. Why Does This Matter for Data Extraction?
+
+Maya now understands why risk-of-bias assessment comes before detailed data extraction in her workflow.
+
+> **Maya:** “Now I see it. If my protocol says some studies won't contribute to the primary synthesis, I don't need to spend time doing the same detailed extraction for those studies.”
+
+> **Mentor:** “Exactly. But remember that the specific handling of those studies must be planned in advance.”
+
+Maya now has a defined group of studies that will proceed to detailed data extraction.
+
+```text
+Eligible Studies
+       ↓
+Risk-of-Bias Assessment
+       ↓
+Determine Handling According to Protocol
+       ↓
+Studies for Planned Synthesis
+       ↓
+Data Extraction
 ```
 
 ---
 
-# ⭐ Important Principle
+# ⭐ Revised Important Principle
 
-> **Risk-of-bias assessment evaluates whether methodological features of an eligible study could have systematically influenced its results. Use an appropriate, preferably design-specific, risk-of-bias tool and follow its guidance consistently. Record the judgment and the evidence supporting it. A high risk-of-bias judgment does not automatically mean that a study should be excluded; how the study is handled should follow the review protocol and analysis plan.**
+> **Risk-of-bias assessment can influence how studies are handled in the synthesis, but a high risk-of-bias judgment does not automatically mean that a study must be excluded. If the protocol specifies a risk-of-bias threshold for exclusion from a particular synthesis, apply that rule consistently and document the excluded studies and reasons. If no such exclusion rule was prespecified, do not create one simply because the results are unfavorable.**
 
 ---
 
 # 🚀 Maya's Journey Continues
 
-Maya finishes assessing the risk of bias in the eligible studies.
+Maya finishes documenting her risk-of-bias decisions.
 
-Now she has two important pieces of information:
+She now knows:
 
-```text id="9r9hjq"
-Which studies are eligible?
-        +
-What methodological concerns do they have?
-```
+* Which studies met the eligibility criteria
+* The risk-of-bias judgments for those studies
+* Which studies will contribute to the planned synthesis
+* Which studies were excluded from the planned synthesis, when required by her protocol
+* Why each excluded study was excluded
 
-> **Maya:** “Now I understand which studies are eligible and what concerns I should keep in mind when interpreting their findings.”
+> **Maya:** “Now I know which studies I need to work with for the next stage.”
 
-> **Mentor:** “Exactly. Now we're ready to systematically collect the information we need from those studies.”
-
-> **Maya:** “Now I can start data extraction?”
-
-> **Mentor:** “Yes.”
+> **Mentor:** “Exactly. Now you can systematically collect the information needed from those studies.”
 
 Maya opens her data-extraction form.
 
@@ -409,162 +521,118 @@ Maya opens her data-extraction form.
 
 ---
 
-# 📝 Check Your Understanding
+# Assessment
 
-## Question 1
+## Multiple-Choice Questions
 
-**What is the main purpose of risk-of-bias assessment?**
+### 1. What is the primary purpose of risk-of-bias assessment?
 
-A. Determine whether the research topic is interesting
-B. Assess whether methodological features could have systematically influenced study results
-C. Calculate the pooled effect size
-D. Find duplicate records
+A. To determine whether a study has a large sample
+B. To evaluate whether methodological problems could systematically influence study findings
+C. To calculate the pooled effect size
+D. To identify duplicate records
 
----
-
-## Question 2
-
-**How is risk-of-bias assessment different from eligibility screening?**
+### 2. How is risk of bias different from eligibility?
 
 A. They are exactly the same process
-B. Eligibility determines whether a study meets the review criteria, while risk-of-bias assessment examines potential methodological bias
-C. Risk-of-bias assessment happens before the literature search
-D. Eligibility is based only on statistical significance
+B. Eligibility asks whether a study meets review criteria, while risk of bias assesses potential methodological distortion
+C. Risk of bias is completed before searching databases
+D. Eligibility is only assessed after meta-analysis
 
----
+### 3. What should Maya do when selecting a risk-of-bias tool?
 
-## Question 3
+A. Select the easiest tool
+B. Create a numerical score herself
+C. Select an appropriate tool that matches the study design
+D. Use the same tool regardless of study design
 
-**When should Maya select her risk-of-bias approach?**
+### 4. What should Maya do when a study does not provide enough information for a risk-of-bias judgment?
 
-A. After seeing which studies have favorable results
-B. After completing the meta-analysis
-C. During the planning/protocol stage, before conducting the assessments
-D. After publication
+A. Automatically classify the study as low risk
+B. Automatically exclude the study
+C. Guess based on the study's reputation
+D. Follow the guidance of the selected risk-of-bias tool
 
----
-
-## Question 4
-
-**Why should the risk-of-bias tool match the study design?**
-
-A. Different study designs have different sources of potential bias
-B. Every study design has identical methodological issues
-C. It makes the review shorter
-D. It eliminates the need for documentation
-
----
-
-## Question 5
-
-**Should Maya automatically assign a numerical quality score to every study?**
-
-A. Yes, every study must receive a score from 0 to 10
-B. Yes, because higher scores always mean better evidence
-C. No. She should follow the method required by the selected risk-of-bias tool
-D. Only if the study has a large sample
-
----
-
-## Question 6
-
-**What should Maya record to support a risk-of-bias judgment?**
-
-A. Only the study title
-B. The evidence or information from the study that supports the judgment
-C. The journal impact factor
-D. The number of citations
-
----
-
-## Question 7
-
-**What should Maya do when a study does not provide enough information about a methodological feature?**
-
-A. Guess what happened
-B. Automatically assume the study used the best method
-C. Follow the selected risk-of-bias tool's guidance for insufficient information
-D. Automatically exclude the study
-
----
-
-## Question 8
-
-**Does a high risk-of-bias judgment automatically mean that Maya must exclude the study?**
+### 5. Does a high risk-of-bias judgment automatically mean that a study must be excluded?
 
 A. Yes, always
-B. No. The study may remain eligible, and its handling should follow the protocol and analysis plan
-C. Yes, if the study is published
-D. Only if the sample is small
+B. No
+C. Only if the study is randomized
+D. Only when the sample size is small
+
+### 6. When may a study with high risk of bias be excluded from a particular synthesis?
+
+A. Whenever Maya personally dislikes the study
+B. Whenever the result is unfavorable
+C. When a predefined protocol rule specifies such handling
+D. Whenever the study has a small sample
+
+### 7. Maya has 126 eligible studies. Her protocol specifies that 15 studies meeting a predefined risk-of-bias threshold will not contribute to the primary synthesis. How many studies remain for the primary synthesis?
+
+A. 101
+B. 111
+C. 126
+D. 141
+
+### 8. Why should Maya document the reason for excluding a study from the primary synthesis?
+
+A. To make the decision transparent and reproducible
+B. To increase the pooled effect
+C. To avoid reporting risk of bias
+D. To replace the eligibility criteria
+
+### 9. What should Maya do if her protocol does not specify exclusion of high-risk studies?
+
+A. Create the exclusion rule after seeing the results
+B. Automatically remove all high-risk studies
+C. Follow the planned approach and consider other methods such as sensitivity analysis
+D. Ignore the risk-of-bias assessment
+
+### 10. Why does the risk-of-bias assessment affect Maya's data-extraction workflow?
+
+A. It can identify studies that, under a prespecified protocol rule, will not contribute to a particular synthesis
+B. It eliminates the need for a research question
+C. It replaces full-text screening
+D. It determines the search terms
+
+### 11. Which statement best describes the relationship between risk of bias and synthesis?
+
+A. Risk of bias has no relevance after screening
+B. High risk always prevents synthesis
+C. Risk-of-bias judgments can inform how evidence is synthesized and interpreted
+D. Risk of bias determines the database search strategy
+
+### 12. What should Maya do if no exclusion rule was prespecified but she notices that high-risk studies produce unfavorable results?
+
+A. Exclude them immediately
+B. Create a new exclusion rule and apply it only to those studies
+C. Retain the planned approach and consider an appropriately planned sensitivity analysis
+D. Change the eligibility criteria
 
 ---
 
-## Question 9
-
-**Why should Maya avoid changing her risk-of-bias rules after seeing study results?**
-
-A. It can introduce subjective or outcome-dependent decisions into the review process
-B. It makes the studies longer
-C. It changes the database search
-D. It prevents data extraction
-
----
-
-## Question 10
-
-**What should happen if two reviewers disagree about a risk-of-bias judgment?**
-
-A. Delete the study
-B. Automatically choose the first reviewer's judgment
-C. Follow the protocol's process for discussion, consensus, or third-reviewer resolution
-D. Ignore the disagreement
-
----
-
-## Question 11
-
-**What is an important reason for recording supporting evidence for each risk-of-bias judgment?**
-
-A. It makes the assessment transparent and reproducible
-B. It increases the number of included studies
-C. It guarantees a low risk of bias
-D. It eliminates the need for a protocol
-
----
-
-## Question 12
-
-**What comes next after Maya completes the risk-of-bias assessment?**
-
-A. Return to database searching
-B. Begin data extraction according to the review plan
-C. Remove every study with any methodological concern
-D. Immediately conduct the meta-analysis
-
----
-
-# ✅ Answer Key
+# Answer Key
 
 | Question | Answer |
-| -------- | ------ |
-| 1        | **B**  |
-| 2        | **B**  |
-| 3        | **C**  |
-| 4        | **A**  |
-| 5        | **C**  |
-| 6        | **B**  |
-| 7        | **C**  |
-| 8        | **B**  |
-| 9        | **A**  |
-| 10       | **C**  |
-| 11       | **A**  |
-| 12       | **B**  |
+| -------: | :----: |
+|        1 |    B   |
+|        2 |    B   |
+|        3 |    C   |
+|        4 |    D   |
+|        5 |    B   |
+|        6 |    C   |
+|        7 |    B   |
+|        8 |    A   |
+|        9 |    C   |
+|       10 |    A   |
+|       11 |    C   |
+|       12 |    C   |
 
 ---
 
-# 📁 Repository Structure
+# Repository Structure
 
-```text id="5c9z2m"
+```text
 step-10-risk-of-bias-assessment/
 │
 ├── README.md
@@ -582,13 +650,3 @@ step-10-risk-of-bias-assessment/
 └── assessment/
     └── assessment.md
 ```
-
----
-
-### Previous Step
-
-**Step 9 — Full-Text Screening**
-
-### Next Step
-
-**Step 11 — Data Extraction**
