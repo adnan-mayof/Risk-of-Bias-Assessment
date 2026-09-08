@@ -652,3 +652,14 @@ step-10-risk-of-bias-assessment/
 └── assessment/
     └── assessment.md
 ```
+
+## 🚀 Maya's Journey Continues
+
+Maya has now **completed the Risk-of-Bias Assessment Stage**.
+The next challenge is to conduct the Decide Whether Meta-Analysis Is Appropriate.
+
+She is now ready to move to:
+
+### Next Step
+
+### **[Step 12 — Decide Whether Meta-Analysis Is Appropriate](https://github.com/adnan-mayof/Decide-Whether-Meta-Analysis-Is-Appropriate/blob/main/README.md)**
